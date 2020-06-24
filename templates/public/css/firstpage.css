@@ -1,0 +1,74 @@
+.first-p {
+
+  width: 100%;
+  background-size: cover;
+  height: 600px;
+  background: white; /* Цвет фона */
+  margin-top: 150px; /* Отступ сверху */
+
+}
+
+.content{
+  margin: 0 auto;
+  max-width: 80%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+img.privet{
+  margin-top: 50px;
+  margin-left: 55px;
+  padding: auto;
+  width: 17vw;
+}
+
+/*
+.first-p h1{
+  font-size: 4rem;
+  color: black;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-left: 55px;
+}*/
+
+.first-p p{
+  text-align: left;
+  font-size: 1.5vw;
+  width: 100%;
+  border: 5px;
+  text-align: justify;
+
+}
+
+.center{
+  display: flex;
+}
+
+.text{
+  margin-top: 13px;
+  margin-right: 55px;
+  margin-left: 55px;
+  display: flex 2;
+  order: 1;
+  
+}
+.small-text{
+  
+  color: grey;
+  font-size: 0.7vmax;
+  width: auto;
+  padding: 0px; /* Поля вокруг текста */
+  border: 1px ; /* Параметры границы */
+  text-align: justify;
+}
+
+img.image{
+  position: relative;
+  display: flex 1;
+  order: 2;
+  width: 46vw;
+  height: 33ch;
+  padding-left: 0px;
+  padding-right: 0px;
+ 
+}
+

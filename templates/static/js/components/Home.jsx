@@ -6,10 +6,18 @@ import Thirdpage from "./third-page/thirdpage";
 import Fourthpage from "./forth-page/fourthpage";
 import Fifthpage from "./fifth-page/fifthpage";
 import Sixthpage from "./sixth-page/sixth";
-import Footer from "./footer/footer";
+import Footer from "./footer/footer"; 
 
 export default class Home extends Component {
     render() {
-       return (<h1>WORK</h1>);
+       return ( <div> <Navibar/> 
+            <Firstpage/> 
+            <Secondpage/>
+            <Thirdpage/>
+            <Fourthpage/>
+            <Fifthpage/>
+            <Sixthpage/>
+            <Footer/>
+        </div>)
     }
 }

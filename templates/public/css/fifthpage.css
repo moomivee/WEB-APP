@@ -1,0 +1,94 @@
+.pagefive{
+    padding-top: 50px;
+    width: 100%; 
+    height: 620px;  
+    background:white;
+    display: flex;
+    
+}
+
+.fifthpage{
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;  
+    position: relative;
+    z-index: 1;   
+    margin-bottom: -270px;
+}
+
+.sec1{
+    padding-right: 15px;
+}
+.sec2{
+    padding-left: 15px;
+}
+
+.box{
+    /*margin: 0 auto;*/
+    max-width: 100%;
+    
+    display: flex;
+    border: 2px solid gray;
+    margin-bottom: 15px ;
+
+}
+
+.box-image{
+    width: 25vh;
+    display: flex 1;
+    order: 1;
+}
+
+
+.part-box{
+    /*margin: 0 auto;*/
+    max-width: 100%;
+    /*padding: 20px;*/
+    padding-right: 20px ;
+    padding-left: 20px;
+    display: flex 1;
+    order: 2;
+}
+
+.footer-five{
+    position: relative;
+    text-align: center;
+    left: 0; 
+    bottom: 0; /* Левый нижний угол */
+    padding: 100px; /* Поля вокруг текста */
+    
+    background: white; /* Цвет фона */
+    background: linear-gradient(to top,white 60%, transparent 100%);
+    color: #fff; /* Цвет текста */
+    
+    width: auto; /* Ширина слоя */
+    z-index: 3;
+  
+  }
+
+.buttfive{
+    margin: 0 auto;
+    padding: 20px;
+    /*text-align: center;*/
+  }
+  
+.buttom4{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: .7em 5em calc(.7em + 3px);
+    background: rgb(119, 119, 119);
+    transition: 0.2s;
+    font-size: 2.1vh;
+    
+  }
+a.buttom4:hover { 
+    background: rgb(167, 167, 167); 
+  }
+a.buttom4:active {
+  
+    background: rgb(120, 121, 120);
+    box-shadow: 0 3px rgb(120, 121, 120) inset;
+  }

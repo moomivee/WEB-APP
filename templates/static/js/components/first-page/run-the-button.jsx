@@ -2,7 +2,21 @@ import React from "react";
 import "./button-for-email.css";
 import Email from "./email";
 
-const Modal = ({ handleClose, show, children }) => {
+
+// <Modal />
+class Modal extends React.Component {
+  render () {const { isOpen, onClose } = this.props;
+    return (
+      <div className={isOpen ? 'modal-main' : 'modal'}>
+        <button className = "click" onClick={onClose}>Закрыть</button>
+          <Email></Email>
+      </div>
+    );
+  }
+}
+
+
+/*const Modal = ({ handleClose, show, children }) => {
     const showHideClassName = show ? "modal display-block" : "modal display-none";
    
 
@@ -17,6 +31,6 @@ const Modal = ({ handleClose, show, children }) => {
         </section>
       </div>
     );
-};
+};*/
 
 export default Modal;

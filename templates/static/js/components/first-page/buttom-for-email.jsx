@@ -2,24 +2,30 @@ import React, { Component } from "react";
 import Modal from './run-the-button';
 import "./button-for-email.css";
 
-state = { show: false };
-
-showModal = () => {
-    this.setState({ show: true });
-  };
-
-hideModal = () => {
-  this.setState({ show: false })
-};
-
 class Dashboard extends Component {
+  constructor(props){
+    super(props);
+    this.state = {
+      isModalOpen: false
+    }
+    this.openModal = this.openModal.bind(this);
+    this.closeModal = this.closeModal.bind(this);
+  }
+  openModal() {
+    this.setState({ isModalOpen: true})
+  }
+  
+  closeModal () {
+    this.setState({ isModalOpen: false })
+  }
+
+
   render() {
     return (
-      <main>
-        <Modal show={this.state.show} handleClose={this.hideModal}></Modal>
-        <button ClassName = "page-button" type="button" onClick={this.showModal}> Оставить почту
-        </button>
-      </main>
+      <div>
+        <button ClassName = "page-button" type="button" onClick={this.openModal}>Оставить почту</button>
+        <Modal isOpen={this.state.isModalOpen} onClose={this.closeModal}/>
+      </div>
     );
   }
 }
