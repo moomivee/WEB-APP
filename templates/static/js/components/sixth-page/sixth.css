@@ -1,0 +1,117 @@
+.pagesix{
+    padding-top: 90px;
+    width: 100%; 
+    height: 450px;  
+    background: #f3f3f3;
+}
+
+.main_content{
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 20px;
+    font-family: Arial, sans-serif;  
+    display: flex;
+    
+}
+
+.left_side{
+   /* border: 1px solid black;*/
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 20px;
+    flex: 1.1;
+    
+
+}
+
+.right_side{
+   /*border: 1px solid red;*/
+   margin: 0 auto;
+   max-width: 80%;
+   height: 50vh;
+   padding: 30px;
+   flex: 1.5;
+   
+}
+.right_side h2{
+    padding: 20px;
+    font-size: 3vh;
+}
+.right_side p{
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 2.2vh;
+}
+
+.buttom{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    background: rgb(119, 119, 119);
+    transition: 0.2s;
+    margin: 20px;
+    font-size: 2.1vh;
+    
+} 
+
+a.buttom:hover { 
+    background: rgb(167, 167, 167); 
+}
+a.buttom:active {
+
+    background: rgb(120, 121, 120);
+    box-shadow: 0 3px rgb(120, 121, 120) inset;
+}
+
+.bor{
+    margin: 0 auto;
+    padding: 20px;
+    /*text-align: center;*/
+}
+
+.buttom2{
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    background: rgb(119, 119, 119);
+    transition: 0.2s;
+    font-size: 2.1vh;
+    
+}
+a.buttom2:hover { 
+    background: rgb(167, 167, 167); 
+}
+a.buttom2:active {
+
+    background: rgb(120, 121, 120);
+    box-shadow: 0 3px rgb(120, 121, 120) inset;
+}
+.describ{
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 2vh;
+    list-style-type: square;
+    
+}
+
+.line{
+    display: flex;
+    
+}
+.line img{
+    
+    width: 4vw;
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid gray;
+}
+
+/*li{
+    list-style-type: none;
+}
+li::before{
+    content: /*url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns = 'https://i.ibb.co/LSvNjym/pop.jpg' width = '32' height ='32'%3E%3C/svg%3E");/*('data:image/svg+xml; utf-8, <svg xmlns = "https://i.ibb.co/LSvNjym/pop.jpg" width = "32" height ="32"></svg>');*/
+/*}*/

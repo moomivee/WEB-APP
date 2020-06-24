@@ -1,0 +1,44 @@
+.navigation-bar {
+    background-color: white;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding-top: 30px ;
+    padding-bottom: 15px;
+    z-index: 10;
+}
+
+.bar-right {
+  float: right;
+  vertical-align: top;
+  width: 100%;
+  min-height: 35px;
+  max-width: 600px;
+}
+
+.bar-right a{
+	text-align: center;
+	color: grey;
+  	text-decoration: none;
+  	font-size: 2vh;
+    padding: 12px 14px ;
+    margin-right: 8px;
+      
+}
+
+.bar-right a:hover {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.entrence {
+    border: 1px solid black;
+    padding: 14px 19px ;
+} 
+
+.entrence a:hover {
+  background-color: transparent; 
+  color: black;
+}

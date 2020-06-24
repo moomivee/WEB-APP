@@ -1,0 +1,46 @@
+.second-p {
+    font-family: sans-serif;
+    color: black;
+    width: 100%; /* Ширина блока с фоном */
+    height: 500px;  
+    /*text-align: center; /* Выравнивать внутренний текст по середине */
+    background: #f3f3f3;  /* Фоновая картинка */
+  }
+  
+  .container {
+      width: 100%; /* Ширина элемента в пикселах 
+      height: 350px;
+      /*margin: 0; /* Выравниваем по центру */
+      padding-top:120px;
+      /*display: inline-block;*/
+      text-align: center;
+      margin: 0 auto;
+      display: flex;
+  }
+  
+  .gallery img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 0.8rem;
+    text-align: center;
+  }
+ 
+
+  .responsive {
+    display: flex 1;
+    padding: 0 25px;
+    float: left;
+    width: 28%;
+  }
+  
+  .small{
+      font-size: 0.9rem;
+  }
+  
+  .tittle{
+      font-size: 1.7rem;
+      font-weight:bold;
+  }
