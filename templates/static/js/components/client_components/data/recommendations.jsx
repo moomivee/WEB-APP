@@ -5,43 +5,43 @@ const data1 = [
         name: "Математика",
         courseType: "Подготовка к ЕГЭ",
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
-        courseimage:tesla
+        courseimage: 'public/images/coursepic.jpg',
     },
     {   id:2,
         name: "Математика",
         courseType: "Подготовка к ЕГЭ",
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
-        courseimage:boringPic
+        courseimage: 'public/images/coursepic.jpg',
     },
     {   id:3,
         name: "Математика",
         courseType: "Подготовка к ЕГЭ",
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
-        courseimage:boringPic
+        courseimage: 'public/images/coursepic.jpg',
     },
     {   id:4,
         name: "Математика",
         courseType: "Подготовка к ЕГЭ",
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
-        courseimage:boringPic
+        courseimage: 'public/images/coursepic.jpg',
     },
     {   id:5,
         name: "Математика",
         courseType: "Подготовка к ЕГЭ",
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
-        courseimage:boringPic
+        courseimage: 'public/images/coursepic.jpg',
     },
     {   id:6,
         name: "Математика",
         courseType: "Подготовка к ЕГЭ",
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
-        courseimage:boringPic
+        courseimage: 'public/images/coursepic.jpg',
     },
     {   id:7,
         name: "Математика",
         courseType: "Подготовка к ЕГЭ",
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
-        courseimage:boringPic
+        courseimage: 'public/images/coursepic.jpg',
     },
     {   id:7,
         name: "Математика",
@@ -49,13 +49,13 @@ const data1 = [
         completed: 54,
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
         bestScore: 78,
-        courseimage:boringPic
+        courseimage: 'public/images/coursepic.jpg',
     },
     {   id:7,
         name: "Математика",
         courseType: "Подготовка к ЕГЭ",
         topic: "Решение С1 с помощью картошки и циркуля в мундире",
-        courseimage:boringPic
+        courseimage: 'public/images/coursepic.jpg',
     }
 
 

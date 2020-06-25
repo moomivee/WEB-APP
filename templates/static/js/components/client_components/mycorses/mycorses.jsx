@@ -1,7 +1,6 @@
 import React from 'react';
 import './mycorses.css';
 import {data} from '../data/ownedcourses'
-/*import icon from '../data/tinypic.jpg' */
 
 /*
     Основной класс называется CourseList. В нем находится функция, которая считает, сколько курсов находится в файле с данными
@@ -201,7 +200,7 @@ class CourseTemplate extends React.Component{
             <div className = "course-template" >
                 <div id="on-hover-course"><a>Продолжить обучение</a></div>
                 <div className="course-left-half">
-                    <img src={this.props.img} className="course-logo"></img>
+                    <img src='public/images/coursepic.jpg' className="course-logo"></img>
                     <div className = "best-score"><p>Лучший результат</p><p className="score">{this.props.bestScore}<p className="hundred">/100</p></p></div>
                 </div>
                 <div className="course-right-half">
@@ -209,9 +208,9 @@ class CourseTemplate extends React.Component{
                     <h4 className="course-type">{this.props.type}</h4>
                     <div className="course-icons">
                         <span>
-                            <img src = {icon} className="achievement-icon"></img>
-                            <img src ={icon} className="achievement-icon"></img>
-                            <img src ={icon} className="achievement-icon"></img>
+                            <img src = 'public/images/icon.jpg' className="achievement-icon"></img>
+                            <img src = 'public/images/icon.jpg' className="achievement-icon"></img>
+                            <img src = 'public/images/icon.jpg' className="achievement-icon"></img>
                         </span>
                     </div>
                     <div className = "course-progress-wrapper">

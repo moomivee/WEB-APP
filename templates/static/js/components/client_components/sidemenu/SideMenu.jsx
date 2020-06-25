@@ -1,14 +1,8 @@
 import React from 'react';
 import './SideMenu.css';
-import ASElogo from './ASE_logo.jpg';
-import axios from 'axios';
-import cors from 'cors';
+/*import ASElogo from './ASE_logo.jpg';*/
+/*import axios from 'axios';*/
 
-var express = require('express');
-var cors = require('cors');
-var app = express();
-app.use(cors());
-app.options('*', cors());
 
 /** Боковое меню **/
 
@@ -16,7 +10,7 @@ class SideMenuHeader extends React.Component{
     render(){
         return(
             <a className = "side-menu-header" href ="https://i.ibb.co/ZcMth1k/Michelangelos-David.jpg" alt="Michelangelos-David">
-                <img className ="side-menu-header-img" src={ASElogo}></img>
+                <img className ="side-menu-header-img" src='public/images/ASE_logo.jpg'></img>
                 <h4 className = "side-menu-header-text">Образовательная платформа</h4>
             </a>
         );
@@ -54,24 +48,23 @@ class SideMenuListLine extends React.Component{
 }
 
 class  SideMenu extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = { user_info: [] }
-      }
-
-    componentDidMount(){
-    axios.get('http://localhost:5000/account/1').then(res => {
-        console.log(res)
-        this.setState({ user_info: res.data})
-    })
-   }
+//    state = {
+//        user_info: []
+//    }
+//
+//    componentDidMount(){
+//    axios.get('http://localhost:5000/account/1').then(res => {
+//        console.log(res)
+//        this.setState({ user_info: res.data})
+//    })
+//   }
 
     render() {
         return (
             <div className="menu-wrapper">
                 <div  className="side-bar">
                     <SideMenuHeader/>
-                    <SideMenuName name = {this.state.user_info[0]} status={this.state.user_info[1]} extrainfo = {"У вас скоро истечет подписка"} image = "https://i.ibb.co/mzpCG5H/300px.jpg"  />
+                    <SideMenuName name = {"Иван Иванович Иванофф"} status={"Гроссмейстер"} extrainfo = {"У вас скоро истечет подписка"} image = "https://i.ibb.co/3F7W507/Matt-DACot-JPG.jpg"  />
                     <div className ="side-menu-list">
                         <SideMenuListLine  name={"Мой Road Map"} />
                         <SideMenuListLine  name={"Мои достижения"} />

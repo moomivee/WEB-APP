@@ -8,7 +8,7 @@ import Client from './components/Client';
 export default (
     <HashRouter history={hashHistory}>
      <div>
-      <Route path='/' component={Home} />
+      <Route exact path='/' component={Home} />
       <Route path='/client' component={Client}/>
      </div>
     </HashRouter>
