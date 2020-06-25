@@ -1,5 +1,5 @@
-import boringPic from './coursepic.jpg'
-import tesla from './tesla.jpg'
+/*import boringPic from './coursepic.jpg'
+import tesla from './tesla.jpg' */
 const data1 = [
     {   id:1,
         name: "Математика",

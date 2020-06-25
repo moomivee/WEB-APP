@@ -1,7 +1,7 @@
 import React from 'react';
 import './mycorses.css';
 import {data} from '../data/ownedcourses'
-import icon from '../data/tinypic.jpg'
+/*import icon from '../data/tinypic.jpg' */
 
 /*
     Основной класс называется CourseList. В нем находится функция, которая считает, сколько курсов находится в файле с данными
@@ -14,7 +14,7 @@ import icon from '../data/tinypic.jpg'
 */
 
 class CourseList extends React.Component{
-    chooseComponent=()=>{
+    chooseComponent(){
 
         if (data.length<7){
             return <CourseListWithoutButton />
@@ -37,7 +37,7 @@ class CourseList extends React.Component{
 }
 
 class CourseListWithoutButton extends React.Component{
-    createList= () => {
+    createList() {
         let numOfRows
         let index=0
         if (data.length%2 == 1){
@@ -101,7 +101,7 @@ class CourseListWithButton extends React.Component {
 
 
 
-    createVisiblePart = () => { //УБРАТЬ УСЛОВИЕ
+    createVisiblePart() { //УБРАТЬ УСЛОВИЕ
         let numOfRows = 3
         let index = 0
         let row = []
@@ -120,7 +120,7 @@ class CourseListWithButton extends React.Component {
     }
 
 
-    createHiddenPart = () => {
+    createHiddenPart() {
         let row = []
         let numOfRows
         let index = 6

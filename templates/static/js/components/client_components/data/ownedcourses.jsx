@@ -1,4 +1,4 @@
-import boringPic from './coursepic.jpg'
+/*import boringPic from './coursepic.jpg'*/
 //добавить иконки и изменить айди если нужно
 const data = [
     {   id:1,

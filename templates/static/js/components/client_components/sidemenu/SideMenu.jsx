@@ -4,9 +4,9 @@ import ASElogo from './ASE_logo.jpg';
 import axios from 'axios';
 import cors from 'cors';
 
-const cors = require('cors');
-const express = require('express');
-let app = express();
+var express = require('express');
+var cors = require('cors');
+var app = express();
 app.use(cors());
 app.options('*', cors());
 

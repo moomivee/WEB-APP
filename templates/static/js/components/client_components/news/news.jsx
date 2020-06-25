@@ -12,7 +12,7 @@ import {news} from "../data/news";
 
 
 class NewsList extends React.Component {
-    chooseGrid=()=>{
+    chooseGrid() {
         if (news.length == 1){
             return this.createGridOfSize1()
         }
@@ -31,7 +31,7 @@ class NewsList extends React.Component {
     }
 
 
-    createGridOfSize1= ()=>{
+    createGridOfSize1() {
         return <div>
             <div className="grid-parent-regular">
                 <div className="grid-1-div1">
@@ -45,7 +45,7 @@ class NewsList extends React.Component {
     }
 
 
-    createGridOfSize2= ()=>{
+    createGridOfSize2() {
         return <div>
             <div className="grid-parent-regular">
                 <div className="grid-2-div1"><NewsBigTemplate img={news[0].image} title={news[0].title} text={news[0].text} date={news[0].date}/></div>
@@ -59,7 +59,7 @@ class NewsList extends React.Component {
 
 
 
-    createGridOfSize3= ()=> {
+    createGridOfSize3() {
         return <div>
             <div className="grid-parent-regular">
                 <div className="grid-3-div1"><NewsBigTemplate img={news[0].image} title={news[0].title} text={news[0].text} date={news[0].date}/></div>
@@ -73,7 +73,7 @@ class NewsList extends React.Component {
 
     }
 
-    createGridOfSize4 = ()=> {
+    createGridOfSize4  () {
         return <div>
             <div className="grid-parent-regular">
                 <div className="grid-4-div1"><NewsBigTemplate img={news[0].image} title={news[0].title} text={news[0].text} date={news[0].date}/></div>
@@ -89,7 +89,7 @@ class NewsList extends React.Component {
 
     }
 
-    createGridWithGradient= ()=> {
+    createGridWithGradient () {
         let result=[]
         let index=4
         let numOfNews = Math.min(news.length, 8)- 4

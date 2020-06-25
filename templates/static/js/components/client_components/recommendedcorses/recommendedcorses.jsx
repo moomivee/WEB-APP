@@ -34,7 +34,7 @@ class RecommendedButton extends React.Component{
 
 class RecommendedList extends React.Component {
 
-    createList=()=>{
+    createList() {
         let row = []
         let numOfRows
         let index = 0

@@ -1,4 +1,4 @@
-import funnypic from './tesla.jpg'
+/*import funnypic from './tesla.jpg'*/
 
 const news = [
     {
